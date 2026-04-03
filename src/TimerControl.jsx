@@ -1,7 +1,7 @@
 import React from "react";
 
 function TimerControl() {
-  return <div className="timer-wrapper"></div>;
+  return <div className="control-wrapper"></div>;
 }
 
 export default TimerControl;
