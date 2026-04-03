@@ -4,7 +4,7 @@ function LengthControl({ controlType }) {
   return (
     <div className="length-container">
       <div className="length-texts">
-        <p>
+        <p id={controlType.toLowerCase() + "-label"}>
           <span>{controlType}</span> length
         </p>
         <span></span>
